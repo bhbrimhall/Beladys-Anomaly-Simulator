@@ -9,6 +9,7 @@ This program simulates 300,000 different page replacement scenarios using a thre
 If you want to use gradle to run the application:
 1. Assemble the project with `$ gradle build`
 2. Run the project with `gradle run`\
+
 If you don't want to use gradle:
 1. Compile the .java files in the src directory
 2. Execute `java Assign5.java` from the command line
