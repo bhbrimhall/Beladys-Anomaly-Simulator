@@ -1,4 +1,4 @@
-# Belady's Anomaly
+# Belady's Anomaly Simulator
 ## What is this?
 This is an assignment that I did for my CS3100 - Operating Systems and Concurrency class. It simulates page replacement in memory using three different algorithms: FIFO, LRU, and MRU. The process goes like:
 1. Generate a page referece string
