@@ -1,0 +1,28 @@
+// gradle 9.1.0 is being used
+
+plugins {
+    id 'java'
+    id 'application'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+    }
+}
+
+application {
+    mainClass = 'Assign5'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Assign5'
+    }
+}
+
+base {
+    archivesName = 'Assign5'
+}
